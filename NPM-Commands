@@ -1,0 +1,54 @@
+Node - Env to run JS outside of the browser
+NPM - Node Package Manager - GitHub
+Yarn - FaceBook
+
+Check Node Version :
+> node -v
+
+Check NPM Version :
+> npm -v
+
+Initialize :
+> npm init
+> npm init -y
+
+Default Init Config Values :
+> npm config set init-author-name Guvi
+> npm config set init-license MIT
+> npm config set init-author-name Guvi init-license MIT
+
+> npm config get init-author-name
+Guvi
+> npm config get init-license
+MIT
+> npm config get
+
+> npm config delete init-author-name
+> npm config delete init-license
+> npm config delete init-author-name init-license
+
+Manage Packages :
+> npm install lodash
+> npm install lodash react
+> npm i lodash
+> npm i lodash@4.16.0
+> npm i eslint --save-dev
+> npm i eslint -g
+> npm root -g
+> npm install
+> npm install --only=prod
+> npm uninstall react
+> npm remove react
+> npm list --depth=1
+
+lodash: "^4.16.0"
+=> Latest version for my major version
+=> 4.17.21
+
+lodash: ~4.16.0
+=> Latest patch version for my major and minor version
+=> 4.16.6
+
+Scripts :
+> npm start (Inbuilt commands)
+> npm run guvi (Custom Commands
